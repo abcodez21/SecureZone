@@ -1,0 +1,947 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC7174E01856D21AEF8C2EC2 /* libPods-SecureZone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D56A71975F01065E3B6645E /* libPods-SecureZone.a */; };
+		EC51D54C2AF08B23008A030F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC51D54B2AF08B23008A030F /* GoogleService-Info.plist */; };
+		EC51D54E2AF672CE008A030F /* Authentications.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC51D54D2AF672CE008A030F /* Authentications.swift */; };
+		EC51D5512AF727F5008A030F /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = EC51D5502AF727F5008A030F /* FirebaseDatabase */; };
+		EC589E972AEABADC00F0E59F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC589E962AEABADC00F0E59F /* CustomTextField.swift */; };
+		EC589E9A2AEB3BE700F0E59F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC589E992AEB3BE700F0E59F /* CustomButton.swift */; };
+		EC589E9D2AEC6FE400F0E59F /* SZCreditCardTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC589E9B2AEC6FE400F0E59F /* SZCreditCardTVC.swift */; };
+		EC589E9E2AEC6FE400F0E59F /* SZCreditCardTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC589E9C2AEC6FE400F0E59F /* SZCreditCardTVC.xib */; };
+		EC589EA62AEC705600F0E59F /* SZGiftCardTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC589EA42AEC705600F0E59F /* SZGiftCardTVC.swift */; };
+		EC589EA72AEC705600F0E59F /* SZGiftCardTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC589EA52AEC705600F0E59F /* SZGiftCardTVC.xib */; };
+		EC589EAE2AEC71B400F0E59F /* SZEmailTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC589EAC2AEC71B400F0E59F /* SZEmailTVC.swift */; };
+		EC589EAF2AEC71B400F0E59F /* SZEmailTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC589EAD2AEC71B400F0E59F /* SZEmailTVC.xib */; };
+		EC589EBD2AEC7F2100F0E59F /* CustomInputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC589EBC2AEC7F2100F0E59F /* CustomInputTextField.swift */; };
+		EC7843102B4E3359003CF0B2 /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC78430F2B4E3359003CF0B2 /* Email.swift */; };
+		EC7843122B50736E003CF0B2 /* GiftCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7843112B50736E003CF0B2 /* GiftCard.swift */; };
+		EC7843142B507387003CF0B2 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7843132B507387003CF0B2 /* CreditCard.swift */; };
+		ECA7A31F2B6AE53F00228431 /* CustomExpTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA7A31E2B6AE53F00228431 /* CustomExpTextField.swift */; };
+		ECA7A3212B6AE55500228431 /* CustomCreditCardtextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA7A3202B6AE55500228431 /* CustomCreditCardtextField.swift */; };
+		ECA7A3232B6AE59600228431 /* CustomCvvTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA7A3222B6AE59600228431 /* CustomCvvTextField.swift */; };
+		ECB792432AD76F5600BC5E46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB792422AD76F5600BC5E46 /* AppDelegate.swift */; };
+		ECB792452AD76F5600BC5E46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB792442AD76F5600BC5E46 /* SceneDelegate.swift */; };
+		ECB792472AD76F5600BC5E46 /* SZTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB792462AD76F5600BC5E46 /* SZTabVC.swift */; };
+		ECB7924C2AD76F5700BC5E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB7924B2AD76F5700BC5E46 /* Assets.xcassets */; };
+		ECB7924F2AD76F5700BC5E46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB7924D2AD76F5700BC5E46 /* LaunchScreen.storyboard */; };
+		ECB7925A2AD76F5700BC5E46 /* SecureZoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB792592AD76F5700BC5E46 /* SecureZoneTests.swift */; };
+		ECB792642AD76F5700BC5E46 /* SecureZoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB792632AD76F5700BC5E46 /* SecureZoneUITests.swift */; };
+		ECB792662AD76F5800BC5E46 /* SecureZoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB792652AD76F5800BC5E46 /* SecureZoneUITestsLaunchTests.swift */; };
+		ECB7927F2AD77DF000BC5E46 /* SZCreditCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB7927E2AD77DF000BC5E46 /* SZCreditCardVC.swift */; };
+		ECB792812AD77E1300BC5E46 /* SZEmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB792802AD77E1300BC5E46 /* SZEmailVC.swift */; };
+		ECB792832AD77E4700BC5E46 /* SZCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB792822AD77E4700BC5E46 /* SZCodeVC.swift */; };
+		ECB7928B2AD77ED800BC5E46 /* SZLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB7928A2AD77ED800BC5E46 /* SZLoginVC.swift */; };
+		ECB7928D2AD77EF300BC5E46 /* SZResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB7928C2AD77EF300BC5E46 /* SZResetPasswordVC.swift */; };
+		ECB7928F2AD77F0800BC5E46 /* SZSignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB7928E2AD77F0800BC5E46 /* SZSignupVC.swift */; };
+		ECB792942AD8180700BC5E46 /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECB792932AD817C200BC5E46 /* SF-Pro-Display-Light.otf */; };
+		ECB792952AD8180700BC5E46 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECB792912AD817C200BC5E46 /* SF-Pro-Display-Regular.otf */; };
+		ECB792962AD8180700BC5E46 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECB792922AD817C200BC5E46 /* SF-Pro-Display-Semibold.otf */; };
+		ECB792992AD8EAF300BC5E46 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB792982AD8EAF300BC5E46 /* main.storyboard */; };
+		ECB7929D2AD97C1C00BC5E46 /* SZForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB7929C2AD97C1C00BC5E46 /* SZForgotPassword.swift */; };
+		ECB7929F2ADD7C9200BC5E46 /* SZSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB7929E2ADD7C9200BC5E46 /* SZSettings.swift */; };
+		ECB792A12ADDEBEA00BC5E46 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB792A02ADDEBEA00BC5E46 /* Constants.swift */; };
+		ECB792A32ADDFD2800BC5E46 /* Edits.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB792A22ADDFD2800BC5E46 /* Edits.swift */; };
+		ECC447602AF08A7400515DF0 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = ECC4475F2AF08A7400515DF0 /* FirebaseAnalytics */; };
+		ECC447622AF08A7400515DF0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = ECC447612AF08A7400515DF0 /* FirebaseAuth */; };
+		ECC447642AF08A7400515DF0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = ECC447632AF08A7400515DF0 /* FirebaseFirestore */; };
+		ECC447662AF08A7400515DF0 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = ECC447652AF08A7400515DF0 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECB792562AD76F5700BC5E46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB792372AD76F5600BC5E46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB7923E2AD76F5600BC5E46;
+			remoteInfo = SecureZone;
+		};
+		ECB792602AD76F5700BC5E46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB792372AD76F5600BC5E46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB7923E2AD76F5600BC5E46;
+			remoteInfo = SecureZone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D56A71975F01065E3B6645E /* libPods-SecureZone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SecureZone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6F2A94145137DC3FD9CA564 /* Pods-SecureZone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureZone.debug.xcconfig"; path = "Target Support Files/Pods-SecureZone/Pods-SecureZone.debug.xcconfig"; sourceTree = "<group>"; };
+		EC51D54B2AF08B23008A030F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EC51D54D2AF672CE008A030F /* Authentications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentications.swift; sourceTree = "<group>"; };
+		EC589E962AEABADC00F0E59F /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		EC589E992AEB3BE700F0E59F /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		EC589E9B2AEC6FE400F0E59F /* SZCreditCardTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZCreditCardTVC.swift; sourceTree = "<group>"; };
+		EC589E9C2AEC6FE400F0E59F /* SZCreditCardTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SZCreditCardTVC.xib; sourceTree = "<group>"; };
+		EC589EA42AEC705600F0E59F /* SZGiftCardTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZGiftCardTVC.swift; sourceTree = "<group>"; };
+		EC589EA52AEC705600F0E59F /* SZGiftCardTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SZGiftCardTVC.xib; sourceTree = "<group>"; };
+		EC589EAC2AEC71B400F0E59F /* SZEmailTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZEmailTVC.swift; sourceTree = "<group>"; };
+		EC589EAD2AEC71B400F0E59F /* SZEmailTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SZEmailTVC.xib; sourceTree = "<group>"; };
+		EC589EBC2AEC7F2100F0E59F /* CustomInputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputTextField.swift; sourceTree = "<group>"; };
+		EC78430F2B4E3359003CF0B2 /* Email.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
+		EC7843112B50736E003CF0B2 /* GiftCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCard.swift; sourceTree = "<group>"; };
+		EC7843132B507387003CF0B2 /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
+		ECA7A31E2B6AE53F00228431 /* CustomExpTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomExpTextField.swift; sourceTree = "<group>"; };
+		ECA7A3202B6AE55500228431 /* CustomCreditCardtextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCreditCardtextField.swift; sourceTree = "<group>"; };
+		ECA7A3222B6AE59600228431 /* CustomCvvTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCvvTextField.swift; sourceTree = "<group>"; };
+		ECB7923F2AD76F5600BC5E46 /* SecureZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB792422AD76F5600BC5E46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECB792442AD76F5600BC5E46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ECB792462AD76F5600BC5E46 /* SZTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZTabVC.swift; sourceTree = "<group>"; };
+		ECB7924B2AD76F5700BC5E46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECB7924E2AD76F5700BC5E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECB792502AD76F5700BC5E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB792552AD76F5700BC5E46 /* SecureZoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecureZoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB792592AD76F5700BC5E46 /* SecureZoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureZoneTests.swift; sourceTree = "<group>"; };
+		ECB7925F2AD76F5700BC5E46 /* SecureZoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecureZoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB792632AD76F5700BC5E46 /* SecureZoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureZoneUITests.swift; sourceTree = "<group>"; };
+		ECB792652AD76F5800BC5E46 /* SecureZoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureZoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECB7927E2AD77DF000BC5E46 /* SZCreditCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZCreditCardVC.swift; sourceTree = "<group>"; };
+		ECB792802AD77E1300BC5E46 /* SZEmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZEmailVC.swift; sourceTree = "<group>"; };
+		ECB792822AD77E4700BC5E46 /* SZCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZCodeVC.swift; sourceTree = "<group>"; };
+		ECB7928A2AD77ED800BC5E46 /* SZLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZLoginVC.swift; sourceTree = "<group>"; };
+		ECB7928C2AD77EF300BC5E46 /* SZResetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZResetPasswordVC.swift; sourceTree = "<group>"; };
+		ECB7928E2AD77F0800BC5E46 /* SZSignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZSignupVC.swift; sourceTree = "<group>"; };
+		ECB792912AD817C200BC5E46 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		ECB792922AD817C200BC5E46 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		ECB792932AD817C200BC5E46 /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
+		ECB792982AD8EAF300BC5E46 /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		ECB7929C2AD97C1C00BC5E46 /* SZForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZForgotPassword.swift; sourceTree = "<group>"; };
+		ECB7929E2ADD7C9200BC5E46 /* SZSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZSettings.swift; sourceTree = "<group>"; };
+		ECB792A02ADDEBEA00BC5E46 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ECB792A22ADDFD2800BC5E46 /* Edits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edits.swift; sourceTree = "<group>"; };
+		FCED8A6D3AFB025933214160 /* Pods-SecureZone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureZone.release.xcconfig"; path = "Target Support Files/Pods-SecureZone/Pods-SecureZone.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB7923C2AD76F5600BC5E46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC51D5512AF727F5008A030F /* FirebaseDatabase in Frameworks */,
+				ECC447602AF08A7400515DF0 /* FirebaseAnalytics in Frameworks */,
+				ECC447662AF08A7400515DF0 /* FirebaseStorage in Frameworks */,
+				ECC447622AF08A7400515DF0 /* FirebaseAuth in Frameworks */,
+				ECC447642AF08A7400515DF0 /* FirebaseFirestore in Frameworks */,
+				DC7174E01856D21AEF8C2EC2 /* libPods-SecureZone.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB792522AD76F5700BC5E46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB7925C2AD76F5700BC5E46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B69212E968E9221A49CF1B78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6F2A94145137DC3FD9CA564 /* Pods-SecureZone.debug.xcconfig */,
+				FCED8A6D3AFB025933214160 /* Pods-SecureZone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD52EA417F950BDA57254348 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D56A71975F01065E3B6645E /* libPods-SecureZone.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC589E982AEB3B9C00F0E59F /* UIDesign */ = {
+			isa = PBXGroup;
+			children = (
+				EC589E962AEABADC00F0E59F /* CustomTextField.swift */,
+				EC589E992AEB3BE700F0E59F /* CustomButton.swift */,
+				EC589EBC2AEC7F2100F0E59F /* CustomInputTextField.swift */,
+				ECA7A31E2B6AE53F00228431 /* CustomExpTextField.swift */,
+				ECA7A3202B6AE55500228431 /* CustomCreditCardtextField.swift */,
+				ECA7A3222B6AE59600228431 /* CustomCvvTextField.swift */,
+			);
+			path = UIDesign;
+			sourceTree = "<group>";
+		};
+		EC589EA32AEC702A00F0E59F /* CreditCard */ = {
+			isa = PBXGroup;
+			children = (
+				EC589E9B2AEC6FE400F0E59F /* SZCreditCardTVC.swift */,
+				EC589E9C2AEC6FE400F0E59F /* SZCreditCardTVC.xib */,
+			);
+			path = CreditCard;
+			sourceTree = "<group>";
+		};
+		EC589EAA2AEC715C00F0E59F /* GiftCard */ = {
+			isa = PBXGroup;
+			children = (
+				EC589EA42AEC705600F0E59F /* SZGiftCardTVC.swift */,
+				EC589EA52AEC705600F0E59F /* SZGiftCardTVC.xib */,
+			);
+			path = GiftCard;
+			sourceTree = "<group>";
+		};
+		EC589EAB2AEC716700F0E59F /* Email */ = {
+			isa = PBXGroup;
+			children = (
+				EC589EAC2AEC71B400F0E59F /* SZEmailTVC.swift */,
+				EC589EAD2AEC71B400F0E59F /* SZEmailTVC.xib */,
+			);
+			path = Email;
+			sourceTree = "<group>";
+		};
+		ECB792362AD76F5600BC5E46 = {
+			isa = PBXGroup;
+			children = (
+				ECB792412AD76F5600BC5E46 /* SecureZone */,
+				ECB792582AD76F5700BC5E46 /* SecureZoneTests */,
+				ECB792622AD76F5700BC5E46 /* SecureZoneUITests */,
+				ECB792402AD76F5600BC5E46 /* Products */,
+				B69212E968E9221A49CF1B78 /* Pods */,
+				DD52EA417F950BDA57254348 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB792402AD76F5600BC5E46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB7923F2AD76F5600BC5E46 /* SecureZone.app */,
+				ECB792552AD76F5700BC5E46 /* SecureZoneTests.xctest */,
+				ECB7925F2AD76F5700BC5E46 /* SecureZoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB792412AD76F5600BC5E46 /* SecureZone */ = {
+			isa = PBXGroup;
+			children = (
+				ECB792752AD77BA600BC5E46 /* Resources */,
+				ECB792762AD77C4600BC5E46 /* Models */,
+				ECB792742AD77B7B00BC5E46 /* ViewModels */,
+				ECB792732AD7705100BC5E46 /* Views */,
+				ECB792722AD7703900BC5E46 /* Controllers */,
+				ECB792502AD76F5700BC5E46 /* Info.plist */,
+			);
+			path = SecureZone;
+			sourceTree = "<group>";
+		};
+		ECB792582AD76F5700BC5E46 /* SecureZoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB792592AD76F5700BC5E46 /* SecureZoneTests.swift */,
+			);
+			path = SecureZoneTests;
+			sourceTree = "<group>";
+		};
+		ECB792622AD76F5700BC5E46 /* SecureZoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB792632AD76F5700BC5E46 /* SecureZoneUITests.swift */,
+				ECB792652AD76F5800BC5E46 /* SecureZoneUITestsLaunchTests.swift */,
+			);
+			path = SecureZoneUITests;
+			sourceTree = "<group>";
+		};
+		ECB792722AD7703900BC5E46 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECB7927D2AD77D6700BC5E46 /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ECB792732AD7705100BC5E46 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ECB792982AD8EAF300BC5E46 /* main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ECB792742AD77B7B00BC5E46 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EC589EAB2AEC716700F0E59F /* Email */,
+				EC589EAA2AEC715C00F0E59F /* GiftCard */,
+				EC589EA32AEC702A00F0E59F /* CreditCard */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		ECB792752AD77BA600BC5E46 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC589E982AEB3B9C00F0E59F /* UIDesign */,
+				ECB792902AD8160700BC5E46 /* Font Group */,
+				ECB792422AD76F5600BC5E46 /* AppDelegate.swift */,
+				ECB792442AD76F5600BC5E46 /* SceneDelegate.swift */,
+				ECB7924B2AD76F5700BC5E46 /* Assets.xcassets */,
+				ECB7924D2AD76F5700BC5E46 /* LaunchScreen.storyboard */,
+				ECB792A02ADDEBEA00BC5E46 /* Constants.swift */,
+				ECB792A22ADDFD2800BC5E46 /* Edits.swift */,
+				EC51D54D2AF672CE008A030F /* Authentications.swift */,
+				EC51D54B2AF08B23008A030F /* GoogleService-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ECB792762AD77C4600BC5E46 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC78430F2B4E3359003CF0B2 /* Email.swift */,
+				EC7843112B50736E003CF0B2 /* GiftCard.swift */,
+				EC7843132B507387003CF0B2 /* CreditCard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ECB7927D2AD77D6700BC5E46 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ECB792462AD76F5600BC5E46 /* SZTabVC.swift */,
+				ECB7927E2AD77DF000BC5E46 /* SZCreditCardVC.swift */,
+				ECB792802AD77E1300BC5E46 /* SZEmailVC.swift */,
+				ECB792822AD77E4700BC5E46 /* SZCodeVC.swift */,
+				ECB7928A2AD77ED800BC5E46 /* SZLoginVC.swift */,
+				ECB7928C2AD77EF300BC5E46 /* SZResetPasswordVC.swift */,
+				ECB7928E2AD77F0800BC5E46 /* SZSignupVC.swift */,
+				ECB7929C2AD97C1C00BC5E46 /* SZForgotPassword.swift */,
+				ECB7929E2ADD7C9200BC5E46 /* SZSettings.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		ECB792902AD8160700BC5E46 /* Font Group */ = {
+			isa = PBXGroup;
+			children = (
+				ECB792932AD817C200BC5E46 /* SF-Pro-Display-Light.otf */,
+				ECB792912AD817C200BC5E46 /* SF-Pro-Display-Regular.otf */,
+				ECB792922AD817C200BC5E46 /* SF-Pro-Display-Semibold.otf */,
+			);
+			path = "Font Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB7923E2AD76F5600BC5E46 /* SecureZone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB792692AD76F5800BC5E46 /* Build configuration list for PBXNativeTarget "SecureZone" */;
+			buildPhases = (
+				B9F3A618B1712A454F469B92 /* [CP] Check Pods Manifest.lock */,
+				ECB7923B2AD76F5600BC5E46 /* Sources */,
+				ECB7923C2AD76F5600BC5E46 /* Frameworks */,
+				ECB7923D2AD76F5600BC5E46 /* Resources */,
+				E2CA50D115D34F263C65548A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecureZone;
+			packageProductDependencies = (
+				ECC4475F2AF08A7400515DF0 /* FirebaseAnalytics */,
+				ECC447612AF08A7400515DF0 /* FirebaseAuth */,
+				ECC447632AF08A7400515DF0 /* FirebaseFirestore */,
+				ECC447652AF08A7400515DF0 /* FirebaseStorage */,
+				EC51D5502AF727F5008A030F /* FirebaseDatabase */,
+			);
+			productName = SecureZone;
+			productReference = ECB7923F2AD76F5600BC5E46 /* SecureZone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECB792542AD76F5700BC5E46 /* SecureZoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB7926C2AD76F5800BC5E46 /* Build configuration list for PBXNativeTarget "SecureZoneTests" */;
+			buildPhases = (
+				ECB792512AD76F5700BC5E46 /* Sources */,
+				ECB792522AD76F5700BC5E46 /* Frameworks */,
+				ECB792532AD76F5700BC5E46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB792572AD76F5700BC5E46 /* PBXTargetDependency */,
+			);
+			name = SecureZoneTests;
+			productName = SecureZoneTests;
+			productReference = ECB792552AD76F5700BC5E46 /* SecureZoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECB7925E2AD76F5700BC5E46 /* SecureZoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB7926F2AD76F5800BC5E46 /* Build configuration list for PBXNativeTarget "SecureZoneUITests" */;
+			buildPhases = (
+				ECB7925B2AD76F5700BC5E46 /* Sources */,
+				ECB7925C2AD76F5700BC5E46 /* Frameworks */,
+				ECB7925D2AD76F5700BC5E46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB792612AD76F5700BC5E46 /* PBXTargetDependency */,
+			);
+			name = SecureZoneUITests;
+			productName = SecureZoneUITests;
+			productReference = ECB7925F2AD76F5700BC5E46 /* SecureZoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB792372AD76F5600BC5E46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					ECB7923E2AD76F5600BC5E46 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					ECB792542AD76F5700BC5E46 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = ECB7923E2AD76F5600BC5E46;
+					};
+					ECB7925E2AD76F5700BC5E46 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = ECB7923E2AD76F5600BC5E46;
+					};
+				};
+			};
+			buildConfigurationList = ECB7923A2AD76F5600BC5E46 /* Build configuration list for PBXProject "SecureZone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECB792362AD76F5600BC5E46;
+			packageReferences = (
+				ECC4475E2AF08A7400515DF0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = ECB792402AD76F5600BC5E46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB7923E2AD76F5600BC5E46 /* SecureZone */,
+				ECB792542AD76F5700BC5E46 /* SecureZoneTests */,
+				ECB7925E2AD76F5700BC5E46 /* SecureZoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB7923D2AD76F5600BC5E46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC589EAF2AEC71B400F0E59F /* SZEmailTVC.xib in Resources */,
+				EC589E9E2AEC6FE400F0E59F /* SZCreditCardTVC.xib in Resources */,
+				ECB792942AD8180700BC5E46 /* SF-Pro-Display-Light.otf in Resources */,
+				ECB792992AD8EAF300BC5E46 /* main.storyboard in Resources */,
+				ECB792952AD8180700BC5E46 /* SF-Pro-Display-Regular.otf in Resources */,
+				ECB792962AD8180700BC5E46 /* SF-Pro-Display-Semibold.otf in Resources */,
+				EC589EA72AEC705600F0E59F /* SZGiftCardTVC.xib in Resources */,
+				EC51D54C2AF08B23008A030F /* GoogleService-Info.plist in Resources */,
+				ECB7924F2AD76F5700BC5E46 /* LaunchScreen.storyboard in Resources */,
+				ECB7924C2AD76F5700BC5E46 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB792532AD76F5700BC5E46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB7925D2AD76F5700BC5E46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B9F3A618B1712A454F469B92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SecureZone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2CA50D115D34F263C65548A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SecureZone/Pods-SecureZone-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SecureZone/Pods-SecureZone-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SecureZone/Pods-SecureZone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB7923B2AD76F5600BC5E46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB7927F2AD77DF000BC5E46 /* SZCreditCardVC.swift in Sources */,
+				ECB7928F2AD77F0800BC5E46 /* SZSignupVC.swift in Sources */,
+				ECB792472AD76F5600BC5E46 /* SZTabVC.swift in Sources */,
+				EC51D54E2AF672CE008A030F /* Authentications.swift in Sources */,
+				ECB7929F2ADD7C9200BC5E46 /* SZSettings.swift in Sources */,
+				ECB792812AD77E1300BC5E46 /* SZEmailVC.swift in Sources */,
+				ECB792832AD77E4700BC5E46 /* SZCodeVC.swift in Sources */,
+				EC7843142B507387003CF0B2 /* CreditCard.swift in Sources */,
+				ECA7A3232B6AE59600228431 /* CustomCvvTextField.swift in Sources */,
+				EC589EAE2AEC71B400F0E59F /* SZEmailTVC.swift in Sources */,
+				EC589E972AEABADC00F0E59F /* CustomTextField.swift in Sources */,
+				EC589E9D2AEC6FE400F0E59F /* SZCreditCardTVC.swift in Sources */,
+				EC589E9A2AEB3BE700F0E59F /* CustomButton.swift in Sources */,
+				ECA7A31F2B6AE53F00228431 /* CustomExpTextField.swift in Sources */,
+				ECB7928D2AD77EF300BC5E46 /* SZResetPasswordVC.swift in Sources */,
+				ECB792432AD76F5600BC5E46 /* AppDelegate.swift in Sources */,
+				ECB7929D2AD97C1C00BC5E46 /* SZForgotPassword.swift in Sources */,
+				ECB792452AD76F5600BC5E46 /* SceneDelegate.swift in Sources */,
+				EC589EA62AEC705600F0E59F /* SZGiftCardTVC.swift in Sources */,
+				EC589EBD2AEC7F2100F0E59F /* CustomInputTextField.swift in Sources */,
+				ECB792A32ADDFD2800BC5E46 /* Edits.swift in Sources */,
+				ECA7A3212B6AE55500228431 /* CustomCreditCardtextField.swift in Sources */,
+				EC7843102B4E3359003CF0B2 /* Email.swift in Sources */,
+				EC7843122B50736E003CF0B2 /* GiftCard.swift in Sources */,
+				ECB7928B2AD77ED800BC5E46 /* SZLoginVC.swift in Sources */,
+				ECB792A12ADDEBEA00BC5E46 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB792512AD76F5700BC5E46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB7925A2AD76F5700BC5E46 /* SecureZoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB7925B2AD76F5700BC5E46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB792642AD76F5700BC5E46 /* SecureZoneUITests.swift in Sources */,
+				ECB792662AD76F5800BC5E46 /* SecureZoneUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECB792572AD76F5700BC5E46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB7923E2AD76F5600BC5E46 /* SecureZone */;
+			targetProxy = ECB792562AD76F5700BC5E46 /* PBXContainerItemProxy */;
+		};
+		ECB792612AD76F5700BC5E46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB7923E2AD76F5600BC5E46 /* SecureZone */;
+			targetProxy = ECB792602AD76F5700BC5E46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECB7924D2AD76F5700BC5E46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB7924E2AD76F5700BC5E46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECB792672AD76F5800BC5E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECB792682AD76F5800BC5E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB7926A2AD76F5800BC5E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F2A94145137DC3FD9CA564 /* Pods-SecureZone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQ86CX5QSX;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SecureZone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abdallahiThiaw.SecureZone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECB7926B2AD76F5800BC5E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCED8A6D3AFB025933214160 /* Pods-SecureZone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQ86CX5QSX;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SecureZone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abdallahiThiaw.SecureZone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECB7926D2AD76F5800BC5E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQ86CX5QSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abdallahiThiaw.SecureZoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecureZone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SecureZone";
+			};
+			name = Debug;
+		};
+		ECB7926E2AD76F5800BC5E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQ86CX5QSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abdallahiThiaw.SecureZoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecureZone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SecureZone";
+			};
+			name = Release;
+		};
+		ECB792702AD76F5800BC5E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQ86CX5QSX;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abdallahiThiaw.SecureZoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SecureZone;
+			};
+			name = Debug;
+		};
+		ECB792712AD76F5800BC5E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQ86CX5QSX;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abdallahiThiaw.SecureZoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SecureZone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB7923A2AD76F5600BC5E46 /* Build configuration list for PBXProject "SecureZone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB792672AD76F5800BC5E46 /* Debug */,
+				ECB792682AD76F5800BC5E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB792692AD76F5800BC5E46 /* Build configuration list for PBXNativeTarget "SecureZone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB7926A2AD76F5800BC5E46 /* Debug */,
+				ECB7926B2AD76F5800BC5E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB7926C2AD76F5800BC5E46 /* Build configuration list for PBXNativeTarget "SecureZoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB7926D2AD76F5800BC5E46 /* Debug */,
+				ECB7926E2AD76F5800BC5E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB7926F2AD76F5800BC5E46 /* Build configuration list for PBXNativeTarget "SecureZoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB792702AD76F5800BC5E46 /* Debug */,
+				ECB792712AD76F5800BC5E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ECC4475E2AF08A7400515DF0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.17.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC51D5502AF727F5008A030F /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECC4475E2AF08A7400515DF0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		ECC4475F2AF08A7400515DF0 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECC4475E2AF08A7400515DF0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		ECC447612AF08A7400515DF0 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECC4475E2AF08A7400515DF0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		ECC447632AF08A7400515DF0 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECC4475E2AF08A7400515DF0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		ECC447652AF08A7400515DF0 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECC4475E2AF08A7400515DF0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ECB792372AD76F5600BC5E46 /* Project object */;
+}

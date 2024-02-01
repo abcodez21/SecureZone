@@ -1,0 +1,6 @@
+module Pods_SecureZone {
+  umbrella header "Pods-SecureZone-umbrella.h"
+
+  export *
+  module * { export * }
+}

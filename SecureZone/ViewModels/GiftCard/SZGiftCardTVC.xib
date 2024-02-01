@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Regular.otf">
+            <string>SFProDisplay-Regular</string>
+        </array>
+        <array key="SF-Pro-Display-Semibold.otf">
+            <string>SFProDisplay-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CodeIdentifier" rowHeight="265" id="KGk-i7-Jjw" customClass="SZGiftCardTVC" customModule="SecureZone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="354" height="265"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="354" height="265"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F5l-lL-ZaT">
+                        <rect key="frame" x="0.0" y="0.0" width="354" height="216"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amazon Gift Card" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XjO-fi-GHy">
+                                <rect key="frame" x="165.33333333333337" y="13.999999999999998" width="163.66666666666663" height="25.333333333333329"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u6G-qI-bgN">
+                                <rect key="frame" x="292" y="77" width="30" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="Avo-Qi-Sfn"/>
+                                    <constraint firstAttribute="height" constant="40" id="GhT-bJ-4yN"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <imageReference key="image" image="doc.on.doc" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="copyPr:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="BIb-f9-vzz"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12/24" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="et9-V4-bhe">
+                                <rect key="frame" x="261" y="147" width="61" height="30"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gf0-E7-Ocs">
+                                <rect key="frame" x="132" y="186" width="90" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="67d-Bn-CG4"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Delete">
+                                    <fontDescription key="titleFontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="23"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="deleteBtnPr:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="eng-j5-C0o"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SDC3453DDS3432" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fay-Ld-clZ">
+                                <rect key="frame" x="20" y="79" width="259.33333333333331" height="36"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="AppColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="gf0-E7-Ocs" secondAttribute="bottom" constant="14" id="0cc-Jb-J3E"/>
+                            <constraint firstItem="fay-Ld-clZ" firstAttribute="centerY" secondItem="F5l-lL-ZaT" secondAttribute="centerY" constant="-11" id="3S7-jT-Nan"/>
+                            <constraint firstItem="gf0-E7-Ocs" firstAttribute="centerX" secondItem="F5l-lL-ZaT" secondAttribute="centerX" id="5Eo-KM-Lx7"/>
+                            <constraint firstItem="fay-Ld-clZ" firstAttribute="leading" secondItem="F5l-lL-ZaT" secondAttribute="leading" constant="20" id="9rz-Rf-2RW"/>
+                            <constraint firstAttribute="height" constant="216" id="CP4-9J-rs6"/>
+                            <constraint firstItem="u6G-qI-bgN" firstAttribute="centerY" secondItem="fay-Ld-clZ" secondAttribute="centerY" id="M35-kb-Scf"/>
+                            <constraint firstAttribute="trailing" secondItem="u6G-qI-bgN" secondAttribute="trailing" constant="32" id="bm3-et-SkY"/>
+                            <constraint firstAttribute="trailing" secondItem="et9-V4-bhe" secondAttribute="trailing" constant="32" id="ftu-f1-dqH"/>
+                            <constraint firstItem="gf0-E7-Ocs" firstAttribute="top" secondItem="et9-V4-bhe" secondAttribute="bottom" constant="9" id="scp-i4-zfA"/>
+                            <constraint firstAttribute="trailing" secondItem="XjO-fi-GHy" secondAttribute="trailing" constant="25" id="uc5-zh-xTz"/>
+                            <constraint firstItem="XjO-fi-GHy" firstAttribute="top" secondItem="F5l-lL-ZaT" secondAttribute="top" constant="14" id="znf-dz-Npo"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="F5l-lL-ZaT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="QV0-NO-Rs4"/>
+                    <constraint firstAttribute="trailing" secondItem="F5l-lL-ZaT" secondAttribute="trailing" id="YOA-rE-Re2"/>
+                    <constraint firstAttribute="bottom" secondItem="F5l-lL-ZaT" secondAttribute="bottom" constant="25" id="bIU-nO-tHI"/>
+                    <constraint firstItem="F5l-lL-ZaT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="fcs-s5-Huv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="backView" destination="F5l-lL-ZaT" id="G8M-TM-f6w"/>
+                <outlet property="copyBtn" destination="u6G-qI-bgN" id="aPy-t0-zbh"/>
+                <outlet property="deleteBtn" destination="gf0-E7-Ocs" id="zSc-93-0Kv"/>
+                <outlet property="giftCardNum" destination="fay-Ld-clZ" id="eLj-Em-KQf"/>
+                <outlet property="giftCardTypeLabel" destination="XjO-fi-GHy" id="ThV-B7-EQb"/>
+                <outlet property="giftCardexpLabel" destination="et9-V4-bhe" id="gtR-yD-gc9"/>
+            </connections>
+            <point key="canvasLocation" x="39.694656488549619" y="77.112676056338032"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="doc.on.doc" catalog="system" width="116" height="128"/>
+        <namedColor name="AppColor">
+            <color red="0.15686274509803921" green="0.50196078431372548" blue="0.84313725490196079" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>
