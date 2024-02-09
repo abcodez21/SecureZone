@@ -1,10 +1,3 @@
-//
-//  Constants.swift
-//  SecureZone
-//
-//  Created by Abdallahi Thiaw on 10/16/23.
-//
-
 import Foundation
 
 

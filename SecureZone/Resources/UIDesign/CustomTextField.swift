@@ -1,9 +1,3 @@
-//
-//  customTextField.swift
-//  SecureZone
-//
-//  Created by Abdallahi Thiaw on 10/26/23.
-
 import Foundation
 import UIKit
 class CustomTextField: UITextField {
@@ -28,8 +22,6 @@ class CustomTextField: UITextField {
         self.layer.borderWidth = 1.0
         self.layer.borderColor = UIColor(named: SZ.Colors.appColor)?.cgColor
       
-
-
     }
     
     func setupLeftViewMode(image: UIImage) {

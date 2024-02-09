@@ -1,10 +1,3 @@
-//
-//  CustomButton.swift
-//  SecureZone
-//
-//  Created by Abdallahi Thiaw on 10/26/23.
-//
-
 import UIKit
 
 class CustomButton: UIButton {

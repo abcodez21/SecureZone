@@ -1,10 +1,3 @@
-//
-//  SZSignupVC.swift
-//  SecureZone
-//
-//  Created by Abdallahi Thiaw on 10/11/23.
-//
-
 import UIKit
 import FirebaseAuth
 import FirebaseCore
@@ -38,7 +31,6 @@ final class SZSignupVC: UIViewController {
 
         
     }
-    
 
     func constrains(){
         self.view.addSubview(appName)

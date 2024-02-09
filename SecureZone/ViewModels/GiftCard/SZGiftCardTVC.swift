@@ -1,10 +1,3 @@
-//
-//  SZGiftCardTVC.swift
-//  SecureZone
-//
-//  Created by Abdallahi Thiaw on 10/27/23.
-//
-
 import UIKit
 import FirebaseAuth
 import FirebaseFirestore

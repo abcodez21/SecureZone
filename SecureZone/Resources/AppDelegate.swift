@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  SecureZone
-//
-//  Created by Abdallahi Thiaw on 10/11/23.
-//
-
 import UIKit
 import FirebaseCore
 import IQKeyboardManagerSwift

@@ -1,10 +1,3 @@
-//
-//  SZSettings.swift
-//  SecureZone
-//
-//  Created by Abdallahi Thiaw on 10/16/23.
-//
-
 import UIKit
 
 class SZSettings: UIViewController {
@@ -44,9 +37,7 @@ class SZSettings: UIViewController {
         logoutBtn.addTarget(self, action: #selector(logOutBtnPr), for: .touchUpInside)
         resetPasswordBtn.addTarget(self, action: #selector(resetPasswordBtnPr), for: .touchUpInside)
         
-        
-
-        
+  
     }
     
     func constraints(){

@@ -1,20 +1,10 @@
-//
-//  ViewController.swift
-//  SecureZone
-//
-//  Created by Abdallahi Thiaw on 10/11/23.
-//
-
 import UIKit
 
 final class SZTabVC: UITabBarController {
-    
-    
-    
-    
-
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view.
         view.backgroundColor = .white
         tabBar.tintColor = UIColor(named: "AppColor")

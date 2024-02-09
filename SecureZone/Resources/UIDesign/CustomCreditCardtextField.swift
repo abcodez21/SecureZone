@@ -1,10 +1,3 @@
-//
-//  CustomCreditCardtextField.swift
-//  SecureZone
-//
-//  Created by Abdallahi Thiaw on 1/31/24.
-//
-
 import UIKit
 class CustomCreditCardtextField: CustomInputTextField {
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool

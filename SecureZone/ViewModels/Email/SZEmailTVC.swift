@@ -1,10 +1,3 @@
-//
-//  SZEmailTVC.swift
-//  SecureZone
-//
-//  Created by Abdallahi Thiaw on 10/27/23.
-//
-
 import UIKit
 import FirebaseAuth
 import FirebaseFirestore
@@ -27,9 +20,6 @@ class SZEmailTVC: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        configure()
-        constraints()
-        // Initialization code
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -38,15 +28,7 @@ class SZEmailTVC: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func configure(){
-        
-        
-    }
     
-    func constraints(){
-        
-        
-    }
     
     @IBAction func DeleteBtnPr(_ sender: UIButton) {
                 if let userAccount = Auth.auth().currentUser?.email{

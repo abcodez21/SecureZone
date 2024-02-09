@@ -1,10 +1,3 @@
-//
-//  CustomInputTextField.swift
-//  SecureZone
-//
-//  Created by Abdallahi Thiaw on 10/27/23.
-//
-
 import UIKit
 class CustomInputTextField: UITextField, UITextFieldDelegate {
     let padding: CGFloat = 20

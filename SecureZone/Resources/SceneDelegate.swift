@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  SecureZone
-//
-//  Created by Abdallahi Thiaw on 10/11/23.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

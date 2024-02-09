@@ -1,10 +1,3 @@
-//
-//  Authentications.swift
-//  SecureZone
-//
-//  Created by Abdallahi Thiaw on 11/4/23.
-//
-
 import UIKit
 import FirebaseAuth
 import FirebaseFirestore

@@ -1,10 +1,3 @@
-//
-//  CustomExpTextField.swift
-//  SecureZone
-//
-//  Created by Abdallahi Thiaw on 1/31/24.
-//
-
 import UIKit
 class CustomExpTextField: CustomInputTextField {
     

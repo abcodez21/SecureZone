@@ -1,15 +1,7 @@
-//
-//  SZEmailViewController.swift
-//  SecureZone
-//
-//  Created by Abdallahi Thiaw on 10/11/23.
-//
-
 import UIKit
 import FirebaseAuth
 import FirebaseFirestore
 import FirebaseDatabase
-
 
 protocol InfoEmail {
     func fetchData()

@@ -1,10 +1,3 @@
-//
-//  SZLoginVC.swift
-//  SecureZone
-//
-//  Created by Abdallahi Thiaw on 10/11/23.
-//
-
 import UIKit
 import FirebaseAuth
 
@@ -125,9 +118,7 @@ class SZLoginVC: UIViewController {
 
         forgotPasswordBtn.addTarget(self, action: #selector(forgotPasswordBtnPr), for: .touchUpInside)
         
-        emailInput.text = "abc@gmail.com"
-        passwordInput.text = "FAnaye12"
-
+      
     }
     
     @objc func signUpBtnPr(){
