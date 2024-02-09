@@ -1,5 +1,5 @@
 # Secure Zone
-Count It Up assists users in safely securying credentials (Emails & Passwords, Credit Cards, Gift Cards) 
+Secure Zone assists users in safely securying credentials (Emails & Passwords, Credit Cards, Gift Cards) 
 
 ## Screenshots
 ![SecureZone](https://github.com/abcodez21/SecureZone/assets/124530691/93756a9c-1e1e-4df2-9aad-fab56ade1a3a)
