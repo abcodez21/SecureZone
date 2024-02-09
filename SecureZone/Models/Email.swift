@@ -1,10 +1,3 @@
-//
-//  info.swift
-//  SecureZone
-//
-//  Created by Abdallahi Thiaw on 1/9/24.
-//
-
 import UIKit
 
 struct Email{

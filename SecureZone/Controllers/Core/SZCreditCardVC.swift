@@ -1,7 +1,6 @@
 import UIKit
 import FirebaseAuth
 
-
 protocol InfoCreditCard {
     func fetchData()
 }

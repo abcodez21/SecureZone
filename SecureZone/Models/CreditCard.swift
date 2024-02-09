@@ -1,10 +1,3 @@
-//
-//  CreditCard.swift
-//  SecureZone
-//
-//  Created by Abdallahi Thiaw on 1/11/24.
-//
-
 import UIKit
 
 struct CreditCard{

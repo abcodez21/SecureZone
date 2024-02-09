@@ -1,5 +1,5 @@
 # Secure Zone
-Secure Zone assists users in safely securying credentials (Emails & Passwords, Credit Cards, Gift Cards) 
+Secure Zone is a digital wallet that helps secure both financial and personal information such as emails & passwords, credit cards, & gift cards to ensure safe access to all important items in one place. 
 
 ## Screenshots
 ![SecureZone](https://github.com/abcodez21/SecureZone/assets/124530691/93756a9c-1e1e-4df2-9aad-fab56ade1a3a)
