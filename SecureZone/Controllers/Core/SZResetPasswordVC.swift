@@ -26,6 +26,7 @@ final class SZResetPasswordVC: UIViewController {
     
 
     func constrains(){
+        print("Update complete")
         self.view.addSubview(appName)
         self.view.addSubview(curveImage)
         self.view.addSubview(resetPasswordLabel)
@@ -125,5 +126,4 @@ final class SZResetPasswordVC: UIViewController {
         present(tabVC, animated: true, completion: nil)
         
     }
-    
 }
