@@ -31,6 +31,7 @@ Secure Zone is a digital wallet that helps secure both financial and personal in
 
 
 
+https://github.com/abcodez21/Securezone/assets/124530691/abf5f2c9-3939-48c2-a3a3-8494dc61e717
 
 ### Remove credential intake 
 1. once logged in select desired tab bar
