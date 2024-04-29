@@ -30,7 +30,6 @@ Secure Zone is a digital wallet that helps secure both financial and personal in
 5. press the forward button on the top right corner
 
 
-https://github.com/abcodez21/SecureZone/assets/124530691/1989911d-3c99-4bca-9cac-628645ad72e2
 
 
 ### Remove credential intake 
@@ -38,7 +37,6 @@ https://github.com/abcodez21/SecureZone/assets/124530691/1989911d-3c99-4bca-9cac
 2. each tab view cell has a delete button on the bottom of it
 3. click desired delete button on tab view cell
 
-
-https://github.com/abcodez21/SecureZone/assets/124530691/4eca00bf-5049-48fb-8f7b-5e9bd01642f5
+https://github.com/abcodez21/Securezone/assets/124530691/5b1ddef4-3bdc-48fc-8524-6847cd4ea167
 
 
